@@ -3,9 +3,18 @@ body  {
     background-color: #cccccc;
   }
 
+
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+  }
+
+  .arrowButton {
+  position: absolute;
+  margin-top: 1000px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
   }
