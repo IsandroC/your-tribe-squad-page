@@ -1,3 +1,3 @@
 setTimeout(function () {
     window.location.href = 'squadpage.html';
-}, 7000);
+}, 6000);
