@@ -1,6 +1,11 @@
 body  {
     background: no-repeat url("/assets/background.jpg");
-    background-color: #cccccc;
+    background-color: #00e5ff;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
 
   img {
@@ -8,4 +13,12 @@ body  {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    box-shadow: 5px 5px 10px #000000;
   }
+
+  div {
+    text-align: center;
+  }
+
+
+  

@@ -1,3 +1,7 @@
 setTimeout(function () {
-    window.location.href = 'squadpage.html';
+    window.location.href = 'SquadPage.html';
 }, 6000);
+
+
+
+
