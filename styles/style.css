@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font-family: Montserrat;
@@ -7,7 +8,6 @@ body, html {
 }
 
 .bg {
-
   background-image: url("https://wallpaperaccess.com/full/3739446.jpg");
 
   height: 100%;
@@ -16,7 +16,6 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 * {
   box-sizing: border-box;
@@ -44,8 +43,9 @@ body, html {
   display: grid;
   grid-template-rows: 70px 1fr 70px;
   grid-template-columns: 1fr;
-  grid-template-areas: "sidebar"
-                       "content";
+  grid-template-areas:
+    "sidebar"
+    "content";
   width: 100vw;
   height: 100vh;
 }
@@ -68,8 +68,9 @@ sidebar {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 3fr 1fr;
-  grid-template-areas: "logo menu avatar"
-                       "copyright menu avatar";
+  grid-template-areas:
+    "logo menu avatar"
+    "copyright menu avatar";
 }
 .avatar {
   grid-area: avatar;
@@ -98,10 +99,11 @@ sidebar {
 
 @media screen and (min-width: 850px) {
   sidebar {
-    grid-template-areas: "logo"
-                         "avatar"
-                         "menu"
-                         "copyright";
+    grid-template-areas:
+      "logo"
+      "avatar"
+      "menu"
+      "copyright";
     grid-template-columns: 1fr;
     grid-template-rows: 50px auto 1fr 50px;
   }
@@ -130,8 +132,6 @@ sidebar {
   box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .avatar__name {
   font-size: 0.8rem;
 }
@@ -157,7 +157,6 @@ sidebar {
 .menu__item:hover {
   color: black;
 }
-
 
 .menu__icon {
   font-size: 1.3rem;
