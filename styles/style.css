@@ -8,11 +8,13 @@ html {
 }
 
 
+
+.Home{
+  background-color: #fff;
+}
 .TeamMagicUniverse{
 
   background-image: url("https://cdn.wallpapersafari.com/25/80/TDMxcy.jpg");
-  
-
   
 }
 
@@ -90,8 +92,9 @@ sidebar {
 .avatar__name {
   flex: 1;
   text-align: right;
-  margin-right: 1em;
+  margin-right: 1em; 
 }
+
 .avatar__img > img {
   display: block;
 }
@@ -120,7 +123,7 @@ sidebar {
   .menu {
     flex-direction: column;
     align-items: normal;
-    justify-content: flex-start;
+    justify-content: flex-start
   }
   .menu__text {
     display: inline-block;
@@ -136,9 +139,13 @@ sidebar {
   }
 }
 
+
+
 sidebar {
+  
   background-color: #4da6ff;
   box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.2);
+   
 }
 
 .avatar__name {
