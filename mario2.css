@@ -18,7 +18,7 @@ body {
   overflow: auto;
 }
 
-body > * + * {
+body>*+* {
   margin-top: var(--layout-spacing);
 }
 
@@ -81,7 +81,8 @@ footer li {
   padding: 0;
 }
 
-.marioGif{
+/* MARIO LOOP ANIMATIE */
+.marioGif {
   position: absolute;
   top: 65vh;
   width: 5vw;
@@ -92,27 +93,32 @@ footer li {
   z-index: -1;
 }
 
-
-.marioGif img{
+.marioGif img {
   width: 100%
 }
 
-@keyframes marioGif{
+@keyframes marioGif {
   0% {
     left: 0;
   }
+
   48% {
-    transform: rotateY(0deg); 
+    transform: rotateY(0deg);
   }
-  50% { 
+
+  50% {
     left: 95%;
-    transform: rotateY(180deg); 
+    transform: rotateY(180deg);
   }
+
   98% {
-    transform: rotateY(180deg); 
+    transform: rotateY(180deg);
   }
+
   100% {
-    left: 0;    
+    left: 0;
     transform: rotateY(0deg);
   }
 }
+
+/* ------------- */
