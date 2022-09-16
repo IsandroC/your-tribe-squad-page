@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-size: min(calc(1em + 1vw), 4em);
+}
+
+body {
+  --layout-spacing: max(8vh, 3em);
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow: auto;
+}
+
+body > * + * {
+  margin-top: var(--layout-spacing);
+}
+
+.bg {
+  background-image: url("assets/mariobros\ achtergrond.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+main ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+main li {
+  width: 5em;
+  height: 5em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+footer li {
+  width: 5em;
+  height: 5em;
+}
