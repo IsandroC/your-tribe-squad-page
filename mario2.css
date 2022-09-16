@@ -82,33 +82,37 @@ footer li {
 }
 
 .marioGif{
-  background-color: red;
   position: absolute;
-  top: 69vh;
+  top: 65vh;
   width: 5vw;
   height: 10vh;
   z-index: 1;
-  animation: marioGif 4s linear infinite;
-  /* animation-iteration-count: infinite;
-  transition: linear 2s; */
+  animation: marioGif linear infinite;
+  animation-duration: 6.5s;
+  z-index: -1;
 }
 
-img{
-  z-index: 2;
-}
 
-/* .marioGif:hover{
-  transform: translateX(90vw);
-} */
+.marioGif img{
+  width: 100%
+}
 
 @keyframes marioGif{
-  0% {transform: translateX(0);}
-  50% {transform: translateX(90vw);}
-  75% {transform: translateX(90vw) scaleX(-1);}
-  100% {transform: translateX(0);}
+  0% {
+    left: 0;
+  }
+  48% {
+    transform: rotateY(0deg); 
+  }
+  50% { 
+    left: 95%;
+    transform: rotateY(180deg); 
+  }
+  98% {
+    transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+    transform: rotateY(0deg);
+  }
 }
-/* 
-@media marioLoop{
-  0% {}
-  100 {}
-} */
