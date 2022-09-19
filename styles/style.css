@@ -43,6 +43,22 @@ h1 {
   text-align: center;
 }
 
+.mushroom1 {
+  margin-left: 15px;
+}
+
+.mushroom2 {
+  margin-left: 15px;
+}
+
+.mushroom3 {
+  margin-left: 15px;
+}
+
+.mushroom4 {
+  margin-left: 15px;
+}
+
 main ul {
   list-style: none;
   display: flex;
