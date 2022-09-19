@@ -23,7 +23,7 @@ body > * + * {
 }
 
 .bg {
-  background-image: url("assets/mariobros\ achtergrond.png");
+  background-image: url("../assets/mariobros\ achtergrond.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +36,8 @@ main {
 }
 
 h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: white;
   text-shadow: 0 0 6px black;
   text-align: center;
@@ -80,3 +81,45 @@ footer li {
   height: 5em;
   padding: 0;
 }
+
+/* MARIO LOOP ANIMATIE */
+.marioGif {
+  position: absolute;
+  top: 65vh;
+  width: 5vw;
+  height: 10vh;
+  z-index: 1;
+  animation: marioGif linear infinite;
+  animation-duration: 6.5s;
+  z-index: -1;
+}
+
+.marioGif img {
+  width: 100%;
+}
+
+@keyframes marioGif {
+  0% {
+    left: 0;
+  }
+
+  48% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    left: 95%;
+    transform: rotateY(180deg);
+  }
+
+  98% {
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    left: 0;
+    transform: rotateY(0deg);
+  }
+}
+
+/* ------------- */
