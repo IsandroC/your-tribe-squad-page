@@ -4,20 +4,6 @@
   padding: 0;
 }
 
-/* MOBILE */
-@media only screen and (max-width: 480px) {
-  .marioGif img{
-    display: none;
-  }
-  .pipe img{
-    width: 10vw;
-  }
-}
-
-.pipe{
-  width: 100%;
-}
-
 :root {
   font-size: min(calc(1em + 1vw), 4em);
 }
@@ -155,5 +141,21 @@ footer li {
     transform: rotateY(0deg);
   }
 }
+
+
+/* MOBILE */
+@media only screen and (max-width: 480px) {
+  .marioGif img{
+    display: none;
+  }
+  .pipe{
+    display: none;
+  }
+}
+
+.pipe{
+  width: 100%;
+}
+
 
 /* ------------- */
