@@ -9,8 +9,8 @@ Als de website met de squadpage geopend wordt komt op een pagina waar een menu z
 De website heeft een Responsive design:
 Alle boxen passen zich automatisch aan de grote van het apparaat en het menu is beschikbaar op de juiste locatie voor de gebruiker,
 
-![image](https://user-images.githubusercontent.com/112857487/191716531-f0b58718-b039-45b5-a6a6-0f5b477ad9ac.png)
-![image](https://user-images.githubusercontent.com/112857487/191716636-14361ee6-8c5f-45fc-bddb-23229764d3e4.png)
+![image](https://user-images.githubusercontent.com/112857487/191717093-44435b22-8430-40e0-9f8b-b685aa84335e.png)
+![image](https://user-images.githubusercontent.com/112857487/191716999-999b7359-e056-4d26-a999-0a5c33c1aa47.png)
 
 
 Deze pagina is te vinden onder: https://quandaledingle.student.fdnd.nl/
